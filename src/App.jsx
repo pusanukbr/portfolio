@@ -10,7 +10,7 @@ const Projects = lazy(() => import('./pages/Projects'));
 
 function App() {
   return (
-    <div>
+    <div className='bg-bg font-sans font-normal'>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
