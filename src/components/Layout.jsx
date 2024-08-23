@@ -6,7 +6,7 @@ import Social from "./Social";
 
 function Layout() {
     return (
-        <div className='container mx-auto h-screen'>
+        <div className='mx-auto pt-[80px] overflow-hidden'>
             <Social />
             <Header />
             <Suspense fallback={<Loading />}>

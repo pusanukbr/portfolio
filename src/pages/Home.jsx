@@ -1,9 +1,12 @@
+import Main from "../components/pages/home/Main";
+import Quote from "../components/pages/home/Quote";
 
 function Home() {
     return (
-        <div>
-
-        </div>
+        <>
+            <Main/>
+            <Quote/>
+        </>
     )
 }
 export default Home;

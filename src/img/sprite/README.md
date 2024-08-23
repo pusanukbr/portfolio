@@ -5,6 +5,7 @@
 |  ![](/../icons/Github.svg) | GITHUB | Github.svg |
 |  ![](/../icons/Landmark.svg) | LANDMARK | Landmark.svg |
 |  ![](/../icons/Linkedin.svg) | LINKEDIN | Linkedin.svg |
+|  ![](/../icons/Quote.svg) | QUOTE | Quote.svg |
 |  ![](/../icons/Telegram.svg) | TELEGRAM | Telegram.svg |
 |  ![](/../icons/Twitter.svg) | TWITTER | Twitter.svg |
 |  ![](/../icons/arrorw.svg) | ARRORW | arrorw.svg |

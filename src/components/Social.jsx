@@ -5,12 +5,12 @@ const Social = () => {
     const socialName = ['Github', 'LinkedIn', 'Telegram', 'Threads']
     return (
         <div className='
-        fixed pt-[200px] left-[17px]
+        fixed pt-[200px] top-0 left-[17px]
         before:block before:absolute
         before:w-[2px] before:h-[190px]
         before:top-0 before:left-[16px]
         before:bg-grey
-        overflow-auto
+        overflow-hidden
          '>
             <ul className='flex flex-col items-start gap-[8px]'>
                 {socialName.map((name, index) => {
