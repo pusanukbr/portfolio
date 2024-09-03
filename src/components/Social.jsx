@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from "./Icon";
 
 const Social = () => {
-    const socialName = ['Github', 'LinkedIn', 'Telegram', 'Threads']
+    const socialName = ['Github', 'Linkedin', 'Telegram', 'threads']
     return (
         <div className='
         fixed pt-[200px] top-0 left-[17px]
@@ -17,7 +17,7 @@ const Social = () => {
                     return (
                         <li className='group/item' key={index}>
                             <a href="/" className='flex items-center text-grey'>
-                                <Icon name={name.toLocaleUpperCase()} width='32' height='32'/>
+                                <Icon name={name} width='32' height='32'/>
                                 <span className='
                             translate-x-[-100%] invisible w-0
                             opacity-0 group-hover/item:visible

@@ -8,5 +8,5 @@
 |  ![](/../icons/Quote.svg) | QUOTE | Quote.svg |
 |  ![](/../icons/Telegram.svg) | TELEGRAM | Telegram.svg |
 |  ![](/../icons/Twitter.svg) | TWITTER | Twitter.svg |
-|  ![](/../icons/arrorw.svg) | ARRORW | arrorw.svg |
+|  ![](/../icons/arrow.svg) | ARROW | arrow.svg |
 |  ![](/../icons/threads.svg) | THREADS | threads.svg |

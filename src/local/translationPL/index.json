@@ -1,5 +1,46 @@
 {
   "en": "Angielski",
   "ua": "Ukraiński",
-  "pl": "Polski"
+  "pl": "Polski",
+  "home": "Strona główna",
+  "about": "O nas",
+  "contact": "Kontakt",
+  "projects": "Projekty",
+  "main-title": "Pysaniuk to <1>middle front-end developer</1> z <3>Ukrainy</3>",
+  "main-desc": "Tworzy responsywne strony internetowe, gdzie technologie spotykają się z kreatywnością",
+  "main-button": "Skontaktuj się ze mną!!",
+  "main-portfolio": "Aktualnie pracuje nad <1>Portfolio</1>",
+  "projects-title": "Projekty",
+  "projects-obj": {
+    "portfolio": {
+      "title": "Projekt 1",
+      "desc": "Opis projektu 1",
+      "tag": "React\nExpress\nDiscord.js\nFlask\nNode.js\nFlask",
+      "link": "https://github.com",
+      "name-link": "Na żywo"
+    },
+    "calculator": {
+      "title": "Projekt 2",
+      "desc": "Opis projektu 2",
+      "tag": "HTML, CSS, JavaScript",
+      "link": "https://github.com",
+      "name-link": "Na żywo"
+    }
+  },
+  "view-all": "Zobacz wszystkie",
+  "for-me": "Front-End Developer z 7-letnim doświadczeniem w praktycznej pracy, tworzeniu, rozwijaniu i optymalizacji aplikacji internetowych, które wyróżniają się swoją jakością, wydajnością i doświadczeniem użytkownika. Przez lata konsekwentnie demonstrowałem zdolność do wnoszenia wkładu w różnorodne projekty, ściśle współpracując z zespołami, aby dostarczać wysokiej jakości kod i innowacyjne rozwiązania, które odpowiadają na zmieniające się potrzeby firm w różnych sektorach.\n\nMoja wiedza w zakresie technologii front-end jest wszechstronna i głęboko zakorzeniona w praktycznym zastosowaniu. Dzięki solidnym podstawom w HTML i CSS potrafię tworzyć responsywne, estetyczne i przyjazne dla użytkownika interfejsy, które poprawiają ogólne doświadczenie użytkownika. Moja biegłość w JavaScript pozwala mi budować dynamiczne, interaktywne elementy, które ożywiają strony internetowe i aplikacje, zapewniając użytkownikom płynne i angażujące doświadczenie.\n\nPosiadam znaczne doświadczenie w pracy z nowoczesnymi frameworkami front-end, takimi jak React i Vue.js, za pomocą których tworzę modułowe, łatwe w utrzymaniu i skalowalne aplikacje. Te narzędzia pozwoliły mi brać udział w projektach o różnym stopniu skomplikowania, od aplikacji jednostronicowych po dużej skali rozwiązania korporacyjne. Moja znajomość Node.js umożliwia mi również rozszerzenie możliwości na back-end, co pozwala na pracę nad projektami full-stack, gdzie mogę zapewnić spójną i efektywną integrację pomiędzy stroną klienta a serwera.\n\nTypeScript jest kolejnym kluczowym narzędziem w moim arsenale, który daje mi możliwość pisania czystszego, bardziej niezawodnego kodu, dzięki wprowadzeniu statycznych typów do JavaScript. To nie tylko pomaga zredukować ilość błędów, ale również sprawia, że kod jest bardziej łatwy w utrzymaniu i wygodny dla innych programistów w zespole.\n\nOprócz umiejętności technicznych, wnoszę do każdego projektu silne podejście do rozwiązywania problemów. Pasjonuje mnie znajdowanie kreatywnych i efektywnych rozwiązań dla skomplikowanych wyzwań, czy to poprzez optymalizację kodu dla lepszej wydajności, poprawę możliwości ponownego wykorzystania, czy uproszczenie procesu tworzenia. Jestem zdeterminowany do ciągłego doskonalenia i poszerzania swoich umiejętności, dlatego zawsze chętnie podejmuję się bardziej wymagających zadań, które wykraczają poza granice mojej wiedzy.\n\nMoje doświadczenie nie ogranicza się jedynie do programowania; rozumiem również znaczenie współpracy i komunikacji w osiąganiu sukcesu projektu. Ściśle współpracowałem z projektantami, menedżerami produktu i innymi interesariuszami, aby upewnić się, że końcowy produkt nie tylko spełnia wymagania techniczne, ale także jest zgodny z celami biznesowymi i oczekiwaniami użytkowników. Zawsze dążę do dostarczania rozwiązań, które są nie tylko funkcjonalne, ale również intuicyjne i przyjemne dla użytkowników.\n\nPatrząc w przyszłość, z niecierpliwością oczekuję nowych możliwości, które pozwolą mi jeszcze bardziej rozwijać swoje umiejętności i przyczyniać się do innowacyjnych projektów. Szczególnie interesują mnie role, w których mogę mieć znaczący wpływ na doświadczenie użytkownika, a także przyczyniać się do technicznego rozwoju i sukcesu zespołu. Jeśli szukasz Front-End Developera, który łączy umiejętności techniczne z pasją do rozwiązywania problemów i wdrażania innowacji, z przyjemnością porozmawiam, jak mogę przyczynić się do osiągnięcia celów Twojego zespołu.",
+  "for-me-short": "Front-End Developer z 7-letnim doświadczeniem w praktycznej pracy, tworzeniu, rozwijaniu i optymalizacji aplikacji internetowych, które wyróżniają się swoją jakością, wydajnością i doświadczeniem użytkownika. Przez lata konsekwentnie demonstrowałem zdolność do wnoszenia wkładu w różnorodne projekty, ściśle współpracując z zespołami, aby dostarczać wysokiej jakości kod i innowacyjne rozwiązania, które odpowiadają na zmieniające się potrzeby firm w różnych sektorach.\n\nMoja wiedza w zakresie technologii front-end jest wszechstronna i głęboko zakorzeniona w praktycznym zastosowaniu. Dzięki solidnym podstawom w HTML i CSS potrafię tworzyć responsywne, estetyczne i przyjazne dla użytkownika interfejsy, które poprawiają ogólne doświadczenie użytkownika. Moja biegłość w JavaScript pozwala mi budować dynamiczne, interaktywne elementy, które ożywiają strony internetowe i aplikacje, zapewniając użytkownikom płynne i angażujące doświadczenie.",
+    "skills": {
+        "title": "Umiejętności",
+        "languages": "Języki",
+        "languagesList": "HTML, CSS, JavaScript, TypeScript, SQL",
+        "frameworks": "Frameworki",
+        "frameworksList": "React, Vue.js, Angular, Express.js, Sass, Less, Stylus, PostCSS",
+        "tools": "Narzędzia",
+        "toolsList": "Node.js, Webpack, Babel, ESLint, Prettier, Redux, MobX, VueX, Next.js, Nuxt.js, Gatsby, Storybook, Vite",
+        "other": "Inne",
+        "otherList": "Git, GitHub, Jira, Docker, Firebase, Netlify, Vercel, Heroku",
+        "databases": "Baza danych",
+        "databasesList": "MongoDB, MySQL, PostgreSQL"
+    }
 }
