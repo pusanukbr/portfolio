@@ -42,7 +42,7 @@ const ButtonTranslation = () => {
                 <span className={toggle && 'rotate-180'}><Icon name='arrow' width='10' height='7'/></span>
             </div>
             { toggle &&
-                <ul className="flex flex-col gap-y-[8px] absolute right-0 p-[8px] border border-grey">
+                <ul className="flex flex-col gap-y-[8px] absolute right-0 p-[8px] border border-grey bg-bg">
                     <li className={langLocal === "en" ? "bg-primary/20" : "hover:bg-primary/20"} onClick={() => changeLanguage('en')}>{t('en')}</li>
                     <li className={langLocal === "ua" ? "bg-primary/20" : "hover:bg-primary/20"} onClick={() => changeLanguage('ua')}>{t('ua')}</li>
                     <li className={langLocal === "pl" ? "bg-primary/20" : "hover:bg-primary/20"} onClick={() => changeLanguage('pl')}>{t('pl')}</li>

@@ -11,6 +11,7 @@ const Social = () => {
         before:top-0 before:left-[16px]
         before:bg-grey
         overflow-hidden
+        z-30
          '>
             <ul className='flex flex-col items-start gap-[8px]'>
                 {socialName.map((name, index) => {

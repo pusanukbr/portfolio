@@ -14,8 +14,8 @@ const Projects = () => {
         >
             <div className="container">
                 <div className="w-full flex items-center mb-[48px]">
-                    <h2 className="text-[32px] text-white mr-[16px]">
-                        <span className="text-primary">#</span>{t('projects').toLowerCase()}
+                    <h2 className="text-[32px] text-white mr-[16px] lowercase">
+                        <span className="text-primary">#</span>{t('projects')}
                     </h2>
                     <hr className="w-1/2 text-primary" />
                     <a className="ml-auto text-white hover:underline underline-offset-1" href="/">

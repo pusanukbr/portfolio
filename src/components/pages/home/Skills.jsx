@@ -13,10 +13,10 @@ const Skills = () => {
     ];
 
     return (
-        <div className="w-full flex items-center justify-center relative">
+        <div className="w-full flex items-center justify-center relative mb-[110px]">
             <div className="container">
                 <div className="w-full flex items-center mb-[48px]">
-                    <h2 className="text-[32px] text-white mr-[16px]">
+                    <h2 className="text-[32px] text-white mr-[16px] lowercase">
                         <span className="text-primary">#</span>{t('skills.title')}
                     </h2>
                     <hr className="w-1/4 text-primary" />

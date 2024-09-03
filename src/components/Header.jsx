@@ -7,19 +7,23 @@ function Header() {
     const { t } = useTranslation();
     const namePages = ['home', 'about', 'contact', 'projects'];
     return (
-        <div className='container flex justify-between items-center fixed z-10 top-0 left-1/2 translate-x-50'>
-            <div className='flex items-center py-2'>
-                <img src={logo} alt="logo" className='mr-2'/>
-                <span className='text-white'>Pysaniuk</span>
+        <div className="w-full flex justify-center fixed z-20 top-0 left-1/2 translate-x-50 bg-bg">
+            <div className="container flex justify-between items-center">
+                <div className='flex items-center py-2'>
+                    <img src={logo} alt="logo" className='mr-2'/>
+                    <span className='text-white'>Pysaniuk</span>
+                </div>
+                <nav className='text-grey lowercase flex gap-[32px]'>
+                    {namePages.map((item) => (
+                        <NavLink key={item} to={item === 'home' ? '/' : `/${item}`}
+                                 className={({isActive}) => (isActive ? 'text-white' : 'hover:text-white')}>
+                            <span className='text-primary'>#</span>{t(item)}
+                        </NavLink>
+                    ))}
+                    <ButtonTranslation/>
+                </nav>
             </div>
-            <nav className='text-grey lowercase flex gap-[32px]'>
-                {namePages.map((item) => (
-                    <NavLink key={item} to={item === 'home' ? '/' : `/${item}`} className={({ isActive }) => (isActive ? 'text-white' : 'hover:text-white')}>
-                        <span className='text-primary'>#</span>{t(item)}
-                    </NavLink>
-                ))}
-                <ButtonTranslation />
-            </nav>
+
         </div>
     );
 }
